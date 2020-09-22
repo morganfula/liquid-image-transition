@@ -1,8 +1,24 @@
-h2, p {
+h1, p {
   font-family: 'Poppins';
+}
+
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
 }
 
 .distortion {
   width: 640px;
-  height: 920px;
+  height: 960px;
+  align-self: flex-end;
+}
+
+.intro {
+  align-self: center;
+}
+
+.intro h1 {
+  font-size: 50px;
 }
