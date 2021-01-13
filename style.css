@@ -1,7 +1,12 @@
-h1, p {
+h1,
+p {
   font-family: 'Poppins';
+  color: #fff;
 }
 
+body {
+  background: #200a16;
+}
 
 .landing {
   display: flex;
@@ -13,6 +18,7 @@ h1, p {
   width: 640px;
   height: 960px;
   align-self: flex-end;
+  object-fit: cover;
 }
 
 .intro {
